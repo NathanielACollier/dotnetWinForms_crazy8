@@ -1,0 +1,21 @@
+
+<!-- this is not the version that will go out with the production game
+        This is the debug version which contains comments it will be stored in the
+		directory with all the source files while the production version will be stored
+			  in the debug directory.-->
+<settings>
+	<group id="GeneralSettings">
+		<picture_list>pic_list.txt</picture_list>
+		<background_file>C:\pictures\background.bmp</background_file>
+		<!-- possibilities: Crazy8 Poker Blackjack !-->
+		<game>Poker</game>
+		<debug>false</debug>
+		<window_title>Crazy 8 Gui Program</window_title>
+		<!-- displays player cards for everyone, and other info that makes testing easier !-->
+	</group>
+	<group id="Video">
+		<!-- the video is just an example probably something to be implimented far into the future !-->
+		<width>900</width>
+		<height>700</height>
+	</group>
+</settings>
